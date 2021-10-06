@@ -27,7 +27,7 @@ myform.addEventListener("submit", (e) => {
     
         // console.log(id);
 
-        fetch('https://cors-anywhere.herokuapp.com/https://www.metaweather.com/api/location/'+id+'/')
+        fetch('https://www.metaweather.com/api/location/'+id+'/')
         .then((response)=>{
             return response.json();
         })
